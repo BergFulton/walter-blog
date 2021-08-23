@@ -14,7 +14,9 @@ const Create = () => {
     setIsPending(true);
     fetch('https://my-json-server.typicode.com/BergFulton/walter-json/blogs', {
       method: 'POST',
-      headers: { "Content-Type": "application/json" },
+      headers: {'Access-Control-Allow-Origin': '*',
+      'Accept': 'application/json;odata.metadata=full',
+      'Content-Type': 'application/json'},
       body: JSON.stringify(blog)
     }).then(() => {
       setIsPending(false);
