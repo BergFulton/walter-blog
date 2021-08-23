@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Walter is the best dog, true story",
+      "body": "Doggo ipsum big ol pupper heck. Ur givin me a spook long doggo length boy pupper, heck.",
+      "author": "The Girl",
+      "id": 1
+    },
+    {
+      "title": "Walter Mungo: a Dog amongst Dogs",
+      "body": "Puggo very jealous pupper what a nice floof puggo mlem, bork pupper tungg wrinkler, thicc blop blep.",
+      "author": "The Boy",
+      "id": 2
+    },
+    {
+      "title": "Schnabradors in their Natural Habitat",
+      "body": "It is literally just eating and sleeping and being cute",
+      "author": "The Girl",
+      "id": 3
+    },
+    {
+      "title": "Schnabradors are the best",
+      "body": "It is literally just eating and sleeping and being cute",
+      "author": "The Girl",
+      "id": 4
+    }
+  ]
+}
