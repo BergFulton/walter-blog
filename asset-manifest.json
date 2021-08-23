@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/walter-blog/static/css/main.e3036d9e.chunk.css",
-    "main.js": "/walter-blog/static/js/main.c22148f2.chunk.js",
-    "main.js.map": "/walter-blog/static/js/main.c22148f2.chunk.js.map",
+    "main.js": "/walter-blog/static/js/main.94a3a50c.chunk.js",
+    "main.js.map": "/walter-blog/static/js/main.94a3a50c.chunk.js.map",
     "runtime-main.js": "/walter-blog/static/js/runtime-main.28551f3e.js",
     "runtime-main.js.map": "/walter-blog/static/js/runtime-main.28551f3e.js.map",
     "static/js/2.96cd6bc2.chunk.js": "/walter-blog/static/js/2.96cd6bc2.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.28551f3e.js",
     "static/js/2.96cd6bc2.chunk.js",
     "static/css/main.e3036d9e.chunk.css",
-    "static/js/main.c22148f2.chunk.js"
+    "static/js/main.94a3a50c.chunk.js"
   ]
 }
