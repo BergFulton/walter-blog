@@ -3,7 +3,7 @@ import useFetch from './useFetch';
 
 
 const Home = () => {
-    const {data: blogs, isPending, error} = useFetch('https://my-json-server.typicode.com/BergFulton/walter-json/blogs');
+    const {data: blogs, isPending, error} = useFetch('https://walter-blog-project.herokuapp.com/blogs');
 
     return (<div className="home">
         {error && <div>Werps, something went super bad. Try again later?</div>}

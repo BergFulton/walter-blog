@@ -3,10 +3,10 @@ import useFetch from "./useFetch";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data: blog, error, isPending } = useFetch('https://my-json-server.typicode.com/BergFulton/walter-json/blogs' + id);
+  const { data: blog, error, isPending } = useFetch('https://walter-blog-project.herokuapp.com/blogs/' + id);
   const history = useHistory();
   const handleClick= () => {
-    fetch('https://my-json-server.typicode.com/BergFulton/walter-json/blogs' + blog.id, {
+    fetch('https://walter-blog-project.herokuapp.com/blogs/' + id, {
       method: 'DELETE'
     }).then(() => {
       history.push('/')

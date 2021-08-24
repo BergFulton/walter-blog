@@ -2,10 +2,10 @@ import Navbar from './Navbar'
 import Home from './Home'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Create from './Create'
-import Bloglist from './Bloglist';
 import BlogDetails from './BlogDetails';
 import Bio from './Bio';
 import NotFound from './NotFound';
+// import firebase from 'firebase';
 
 function App() {
   return (

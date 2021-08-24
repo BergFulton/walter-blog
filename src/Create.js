@@ -12,10 +12,9 @@ const Create = () => {
     e.preventDefault();
     const blog = { title, body, author };
     setIsPending(true);
-    fetch('https://my-json-server.typicode.com/BergFulton/walter-json/blogs', {
+    fetch('https://walter-blog-project.herokuapp.com/blogs', {
       method: 'POST',
       headers: {'Access-Control-Allow-Origin': '*',
-      'Accept': 'application/json;odata.metadata=full',
       'Content-Type': 'application/json'},
       body: JSON.stringify(blog)
     }).then(() => {
