@@ -5,7 +5,6 @@ import Create from './Create'
 import BlogDetails from './BlogDetails';
 import Bio from './Bio';
 import NotFound from './NotFound';
-// import firebase from 'firebase';
 
 function App() {
   return (

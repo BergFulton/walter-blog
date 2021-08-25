@@ -113,3 +113,31 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/*bio page styles*/
+.bio {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.bio p:not(:first-of-type) {
+  margin: 5px 0px;
+}
+
+@media (min-width: 651px) {
+  .bio-layout {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+.bio-layout {
+  margin-top: 10px;
+}
+.img-container {
+  margin-right: 20px;
+}
+
+.img-container img {
+  width: 100%;
+  border-radius: 8px;
+}
